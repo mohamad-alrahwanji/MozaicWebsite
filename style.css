@@ -1,9 +1,9 @@
 #Main-Nav {
-    background-color: rgba(198, 181, 181, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 #Main-Nav .navbar-brand img {
-    width:180px;
+    width:125px;
     height:auto;
 }
 
@@ -14,10 +14,18 @@
 }
 
 #feature-list li::marker {
-    color: rgb(79, 57, 243);
+    color: rgb(62, 101, 158);
     font-size: 1.5rem;
 }
 
 h2 {
-    color: rgb(79, 57, 243);
+    color: rgb(62, 101, 158);
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
