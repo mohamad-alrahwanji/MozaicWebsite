@@ -1,0 +1,23 @@
+#Main-Nav {
+    background-color: rgba(198, 181, 181, 0.2);
+}
+
+#Main-Nav .navbar-brand img {
+    width:180px;
+    height:auto;
+}
+
+#feature-list {
+    list-style-type:square;
+    list-style-position:outside;
+    padding-left:0;
+}
+
+#feature-list li::marker {
+    color: rgb(79, 57, 243);
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: rgb(79, 57, 243);
+}
